@@ -82,5 +82,29 @@ with open(path, "w") as f:
     f.write(html)
 PYEOF
 
+# Add the post to the RSS/Atom feed
+python3 - static/feed.xml "$slug" "$title" "$date" <<'PYEOF'
+import sys
+
+path, slug, title, date = sys.argv[1:5]
+base = "https://salzdevs.github.io/mywebsite"
+with open(path) as f:
+    feed = f.read()
+
+entry = f'''  <entry>
+    <title>{title}</title>
+    <link href="{base}/posts/{slug}.html"/>
+    <id>{base}/posts/{slug}.html</id>
+    <updated>{date}T00:00:00Z</updated>
+    <published>{date}T00:00:00Z</published>
+    <summary>Read the full post on salzdevs.</summary>
+  </entry>
+'''
+
+feed = feed.replace('<entry>', entry + '<entry>', 1) if '<entry>' in feed else feed
+with open(path, "w") as f:
+    f.write(feed)
+PYEOF
+
 echo "created $file"
 echo "linked on the homepage as: $date_display — $title"

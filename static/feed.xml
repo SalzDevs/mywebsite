@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>salzdevs</title>
+  <link href="https://salzdevs.github.io/mywebsite/feed.xml" rel="self"/>
+  <link href="https://salzdevs.github.io/mywebsite/"/>
+  <updated>2026-08-03T00:00:00Z</updated>
+  <id>https://salzdevs.github.io/mywebsite/</id>
+  <author>
+    <name>salzdevs</name>
+  </author>
+  <entry>
+    <title>Stockfish won at chess and lost anyway</title>
+    <link href="https://salzdevs.github.io/mywebsite/posts/stockfish-won-at-chess-and-lost-anyway.html"/>
+    <id>https://salzdevs.github.io/mywebsite/posts/stockfish-won-at-chess-and-lost-anyway.html</id>
+    <updated>2026-08-03T00:00:00Z</updated>
+    <published>2026-08-03T00:00:00Z</published>
+    <summary>Even if we reached AGI next week, learning to code would still be a great thing to pursue. Not because it will make you rich, or super smart, but because it might be fun.</summary>
+  </entry>
+</feed>
