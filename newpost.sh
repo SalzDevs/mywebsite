@@ -25,7 +25,7 @@ cat > "$file" <<EOF
   <meta name="description" content="$title">
   <title>$title · salzdevs</title>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=2">
 </head>
 <body>
   <header class="site-header">
