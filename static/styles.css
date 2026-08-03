@@ -127,25 +127,13 @@ a:hover { color: #111; }
   color: var(--muted);
 }
 
-.footer-heading {
-  font-size: 18px;
-  margin: 0 0 1rem;
-  color: var(--ink);
-}
-
-.footer-col-wrapper { display: flex; gap: 2rem; }
-
-.footer-col-1 { flex: 1; }
-.footer-col-2 { flex: 2; }
-.footer-col-3 { flex: 3; }
-
-.contact-list, .social-media-list {
+.social-media-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 1.25rem;
 }
-
-.social-media-list li { margin-bottom: 6px; }
 
 .social-media-list a {
   display: inline-flex;
@@ -158,10 +146,7 @@ a:hover { color: #111; }
 
 .social-media-list svg { flex-shrink: 0; }
 
-.footer-col-3 p { margin: 0; }
-
 @media (max-width: 600px) {
-  .footer-col-wrapper { flex-direction: column; gap: 1.25rem; }
   .site-title { font-size: 22px; }
 }
 
