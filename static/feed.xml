@@ -8,7 +8,15 @@
   <author>
     <name>salzdevs</name>
   </author>
-  <entry>
+    <entry>
+    <title>Tools matter more than people think</title>
+    <link href="https://salzdevs.github.io/mywebsite/posts/tools-matter-more-than-people-think.html"/>
+    <id>https://salzdevs.github.io/mywebsite/posts/tools-matter-more-than-people-think.html</id>
+    <updated>2026-08-06T00:00:00Z</updated>
+    <published>2026-08-06T00:00:00Z</published>
+    <summary>Read the full post on salzdevs.</summary>
+  </entry>
+<entry>
     <title>Stockfish won at chess and lost anyway</title>
     <link href="https://salzdevs.github.io/mywebsite/posts/stockfish-won-at-chess-and-lost-anyway.html"/>
     <id>https://salzdevs.github.io/mywebsite/posts/stockfish-won-at-chess-and-lost-anyway.html</id>
